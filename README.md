@@ -43,6 +43,7 @@ When the IDE knows your programming language, it can anticipate what you’re go
 We’ve seen statements with `System.out.println()` quite a bit so far. In an IDE, we might see `System` as an autocomplete option after only typing `Sy`. This saves keystrokes so the programmer can focus on logic in their code.
 
 https://user-images.githubusercontent.com/71942518/174749889-0b7bd1f4-858f-4a0b-bdbe-0a4036b37a42.mov
+
 `Autocompleting a command`
 
 ### Building Executables
@@ -59,6 +60,7 @@ When a program does not run correctly, IDEs provide debugging tools that allow p
 
 IDEs also provide hints while coding to prevent errors before compilation.
 ![Screen Shot 2022-06-21 at 1 16 28 AM](https://user-images.githubusercontent.com/71942518/174751313-dccc066d-544a-400e-a27c-09c9a5807043.png)
+
 `Catching a bug`
 
 ## Coding On Your Computer
