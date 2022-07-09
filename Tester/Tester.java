@@ -23,12 +23,12 @@ public class Tester {
          * Please enter the number of cans
          */
 
-        int Bottles = 8;
-        System.out.printf("Bottles: %8d.", Bottles);
+        String myName = "FZ";
+        System.out.printf("myName: %5s.", myName);
         /**
          * Sample run:
          * Console window:
-         * Bottles: 8.
+         * myName: FZ.
          */
     }
 }
