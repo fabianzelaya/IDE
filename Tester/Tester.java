@@ -13,14 +13,22 @@ public class Tester {
         // System.out.print("Please enter the unit price: ");
         // double unitPrice = in.nextInt();
 
-        System.out.print("Please enter the number of cans");
-        int cans = in.nextInt();
+        // System.out.print("Please enter the number of cans");
+        // int cans = in.nextInt();
 
         /**
          * System.out.print("Please enter the number of cans: ");
          * 
          * Console window:
          * Please enter the number of cans
+         */
+
+        int Bottles = 8;
+        System.out.printf("Bottles: %8d.", Bottles);
+        /**
+         * Sample run:
+         * Console window:
+         * Bottles: 8.
          */
     }
 }
