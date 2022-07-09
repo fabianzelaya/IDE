@@ -22,9 +22,24 @@ public class Tester {
          * Console window:
          * Please enter the number of cans
          */
+        // int myNum = 23;
+        // System.out.printf("myNum: %10d.", myNum);
+        /**
+         * Sample run:
+         * Console window:
+         * myNum: 23.
+         */
 
-        String myName = "FZ";
-        System.out.printf("myName: %5s.", myName);
+        double myDouble = 23;
+        System.out.printf("myDouble: %10.2f.", myDouble);
+        /**
+         * Sample run:
+         * Console window:
+         * myDouble: 23.00.
+         */
+
+        // String myName = "FZ";
+        // System.out.printf("myName: %5s.", myName);
         /**
          * Sample run:
          * Console window:
