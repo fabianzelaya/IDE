@@ -22,29 +22,35 @@ public class Tester {
          * Console window:
          * Please enter the number of cans
          */
-        // int myNum = 23;
-        // System.out.printf("myNum: %10d.", myNum);
+        int myNum = 23;
+        System.out.printf("myNum: %10d\n", myNum);
         /**
          * Sample run:
          * Console window:
          * myNum: 23.
          */
 
+        System.out.println("Quiero ver que pasa " + myNum);
+
         double myDouble = 23;
-        System.out.printf("myDouble: %10.2f.", myDouble);
+        System.out.printf("myDouble: %10.2f\n", myDouble);
         /**
          * Sample run:
          * Console window:
          * myDouble: 23.00.
          */
 
-        // String myName = "FZ";
-        // System.out.printf("myName: %5s.", myName);
+        System.out.println("Quiero ver que pasa " + myNum);
+
+        String myName = "FZ";
+        System.out.printf("myName: %5s.\n", myName);
         /**
          * Sample run:
          * Console window:
          * myName: FZ.
          */
+        // System.out.println();
+        System.out.println("Quiero ver que pasa " + myNum);
     }
 }
 /**
