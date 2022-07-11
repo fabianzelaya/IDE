@@ -31,13 +31,14 @@ public class createFrame {
         // Show the frame
 
         int width = 500;
-
         int height = 500;
 
         frame.setSize(width, height);
+        // frame.setSize(400, 500);
+        // frame.setTitle("FZ");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setBackground(Color.GREEN);
-        frame.setBounds(10, 20, 300, 300);
-
+        // frame.setBounds(10, 20, 300, 300);
         frame.setVisible(true);
     }
 }
