@@ -7,11 +7,13 @@ import java.awt.Component;
 import java.awt.Frame;
 import java.awt.TextArea;
 
+import javax.swing.JFrame;
+
 public class createFrame {
     public static void main(String[] args) {
         // Create frame with specific title
 
-        Frame frame = new Frame("Example Frame");
+        JFrame frame = new JFrame("Example Frame");
 
         // Create a component to add to the frame; in this case a text area with sample
         // text
