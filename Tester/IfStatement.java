@@ -13,6 +13,13 @@ public class IfStatement {
         } else {
             System.out.println("Bye...");
         }
+
+        // int x, y;
+        // x.equals(y);
+
+        double y = 3 * (1.0 / 3);
+
+        System.out.println(y);
     }
 }
 // FZ
