@@ -1,3 +1,5 @@
+package com.fabianzelaya.employee;
+
 /**
  * Declare a class Manager that inherits from the class Employee and adds an
  * instance variable

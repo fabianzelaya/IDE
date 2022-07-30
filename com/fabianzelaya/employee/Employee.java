@@ -1,3 +1,5 @@
+package com.fabianzelaya.employee;
+
 /**
  * This class represents an employee. Also follows the question instructions #7
  * from the chapter 9 Self-Check exercise.
