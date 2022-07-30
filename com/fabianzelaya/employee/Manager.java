@@ -11,6 +11,8 @@ package com.fabianzelaya.employee;
 public class Manager extends Employee {
     // bonus for storing a salary bonus.
     private double salaryBonus;
+    private double baseSalary;
+    private String name;
 
     // Omit constructors and methods.
     // public Manager(String name, double baseSalary, double salaryBonus) {
