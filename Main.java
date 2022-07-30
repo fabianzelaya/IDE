@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        for (int i = 0; i < 2; i++) {
-            primes[4 - i] = primes[i];
-        }
+        Object obj = "Who was the inventor of Java?";
+        Question q = (Question) obj;
+        q.display();
 
     }
 }

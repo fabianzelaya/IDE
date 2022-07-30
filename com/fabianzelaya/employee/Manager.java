@@ -29,7 +29,7 @@ public class Manager extends Employee {
     }
 
     public double getSalary() {
-        // return super.getSalary() + salaryBonus;
+        return super.getSalary() + salaryBonus;
     }
 
     public void setName(String name) {
