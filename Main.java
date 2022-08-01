@@ -1,9 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        Object obj = "Who was the inventor of Java?";
-        Question q = (Question) obj;
-        q.display();
-
+        // Infinity loop
+        int i = 0;
+        while (i != 11) {
+            System.out.print(i + " ");
+            i = i + 3;
+        }
     }
 }
