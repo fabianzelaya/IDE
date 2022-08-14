@@ -21,7 +21,7 @@ public class Tester {
             // customer.roomNumber = roomNumber;
 
             customer.saveCustomerInfo();
-        }
+        };
     }
 }
 
