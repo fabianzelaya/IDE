@@ -11,13 +11,13 @@ public class Tester {
             int age = read.nextInt();
             int roomNumber = read.nextInt();
 
-            Customer customer = new Customer(SecondName, SecondName, roomNumber, roomNumber);
+            Customer customer = new Customer(firstName, SecondName, age, roomNumber);
             // set customer's data to object here
 
-            customer.firstName = firstName;
-            customer.SecondName = SecondName;
-            customer.age = age;
-            customer.roomNumber = roomNumber;
+            // customer.firstName = firstName;
+            // customer.SecondName = SecondName;
+            // customer.age = age;
+            // customer.roomNumber = roomNumber;
 
             customer.saveCustomerInfo();
         }
