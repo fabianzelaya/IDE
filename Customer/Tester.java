@@ -5,39 +5,40 @@ import java.util.Scanner;
 public class Tester {
 
     public static void main(String[] args) {
-        Scanner read = new Scanner(System.in);
-        String firstName = read.nextLine();
-        String SecondName = read.nextLine();
-        int age = read.nextInt();
-        int roomNumber = read.nextInt();
+        try (Scanner read = new Scanner(System.in)) {
+            String firstName = read.nextLine();
+            String SecondName = read.nextLine();
+            int age = read.nextInt();
+            int roomNumber = read.nextInt();
 
-        Customer customer = new Customer();
-        // set customer's data to object here
+            Customer customer = new Customer(SecondName, SecondName, roomNumber, roomNumber);
+            // set customer's data to object here
 
-        customer.firstName = firstName;
-        customer.SecondName = SecondName;
-        customer.age = age;
-        customer.roomNumber = roomNumber;
+            customer.firstName = firstName;
+            customer.SecondName = SecondName;
+            customer.age = age;
+            customer.roomNumber = roomNumber;
 
-        customer.saveCustomerInfo();
+            customer.saveCustomerInfo();
+        }
     }
 }
 
-class Customer {
-    // add all necessary attributes here
-    String firstName;
-    String SecondName;
-    int age;
-    int roomNumber;
+// class Customer {
+// // add all necessary attributes here
+// String firstName;
+// String SecondName;
+// int age;
+// int roomNumber;
 
-    public void saveCustomerInfo() {
-        System.out.println("First name: " + firstName);
-        System.out.println("Second name: " + SecondName);
-        System.out.println("Age: " + age);
-        System.out.println("Room number: " + roomNumber);
-    }
-}
-// FZ
+// public void saveCustomerInfo() {
+// System.out.println("First name: " + firstName);
+// System.out.println("Second name: " + SecondName);
+// System.out.println("Age: " + age);
+// System.out.println("Room number: " + roomNumber);
+// }
+// }
+// // FZ
 
 /**
  * You are the administrator of a hotel and must create customer information
