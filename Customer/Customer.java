@@ -7,12 +7,13 @@ public class Customer {
     int age;
     int roomNumber;
 
-    public Customer(String firstName, String SecondName, int age, int roomNumber) {
-        this.firstName = firstName;
-        this.SecondName = SecondName;
-        this.age = age;
-        this.roomNumber = roomNumber;
-    }
+    // public Customer(String firstName, String SecondName, int age, int roomNumber)
+    // {
+    // this.firstName = firstName;
+    // this.SecondName = SecondName;
+    // this.age = age;
+    // this.roomNumber = roomNumber;
+    // }
 
     public void saveCustomerInfo() {
         System.out.println("First name: " + firstName);

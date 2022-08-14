@@ -12,7 +12,7 @@ public class Tester {
             int age = read.nextInt();
             int roomNumber = read.nextInt();
 
-            Customer customer = new Customer(firstName, SecondName, age, roomNumber);
+            Customer customer = new Customer();
             // set customer's data to object here
 
             // customer.firstName = firstName;
