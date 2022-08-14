@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Tester {
 
     public static void main(String[] args) {
-        try (Scanner read = new Scanner(System.in)) {
+        
+        Scanner read = new Scanner(System.in) {
             String firstName = read.nextLine();
             String SecondName = read.nextLine();
             int age = read.nextInt();
