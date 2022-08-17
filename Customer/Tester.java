@@ -24,6 +24,7 @@ public class Tester {
         customer.getCustomerInfo();
     }
 }
+//FZ
 
 /**
  * You are the administrator of a hotel and must create customer information
